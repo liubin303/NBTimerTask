@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C1438ED1A8D2A9B54855D4DD4F037C /* NBTimerTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9E84A81A816EC4239A97A52D5CB56 /* NBTimerTask-dummy.m */; };
+		066B22C579C01B10A58875169C8D5F0B /* NSString+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CF295C19A2D1738497BCCA5607FE6F0E /* NSString+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		25BC72026F9F3D59B0AABB56EB57B10A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		379029BCFA0851B9119A6E551CD022BC /* UITextField+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 019CEBAA2AEE0CCC05DCFD2810622456 /* UITextField+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7E1B7FF786B5ED0BDFD3641E5300D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3CAC137F2A405CCC55E7E84698276F7E /* UILabel+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFFE1C256DC327C50735643E915F55E /* UILabel+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E40E1BC8259201B841EF38ED95EDA0D /* NSString+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F02D4FD589722FD50DAE0CFA475038C7 /* NSString+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D12AF04198E7365E6E828C7C0BD6343 /* UIColor+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECDAF8779D404A3EB5FF4B546A2B48B /* UIColor+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50504B3AB10976BCED85CFC594301D7F /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE963E49459A7EC949AFE4C2836D0E5 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5492224D337200FB00D0D8BB3818B60A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		551D9AF7A930FD5F67B4CD9CB92EC612 /* NBTimerTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E3A8017661EA7BEFB17957C3A19E0 /* NBTimerTask.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		55B790023E649F17DA4CEBFCFC83CDA7 /* NSAttributedString+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6997840F8D3B628F9DDF6A59D752EAFF /* NSAttributedString+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55EED05EA25A51158E0863DE782A59FF /* UIImageView+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 77451BC9D1FE4BC8CA47F47F89022522 /* UIImageView+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		597CD932DCF9CAAF63487CDEF6201B0D /* FFUIFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F8BDAE0EC37E310E5BE3751CD709E3 /* FFUIFactory-dummy.m */; };
+		5CB3EE2ED65F4E3089590C4C83CD5F54 /* UIImage+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E7656FE1BE808F97E160B8613A38B /* UIImage+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		61C2440652B9445AA9DF0692DF49032F /* NBSystemTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D4581D777165CEC3C08220957582C6 /* NBSystemTimeManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		62B1298DA60D89358B0B0E9A72687E0D /* NBSystemTimeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9297E2D7E9AA2122B4460854501BC9 /* NBSystemTimeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6367D46E4CEC70715EB4003EFB194C66 /* NSAttributedString+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F47333C3B22C99E89C3E1469245B059 /* NSAttributedString+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		721EE81A6BE3A1D0FDD7C7C38EB68624 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 522E190D159A30541F067BA9303CD2CE /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8682A95D89624023796EB102F20CE6D2 /* UIImageView+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6283856425148BE6D95793C8C484DF02 /* UIImageView+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		878763312C2258E1476F55E8BD320811 /* Pods-NBTimerTaskDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF542DCC767A4056D500D7132148B1EF /* Pods-NBTimerTaskDemo-dummy.m */; };
+		8D1A1169FA1AF743F41A90AE42263BD1 /* UIButton+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 89335ABA1599A5EAFA6F32D5A0B6E70F /* UIButton+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94AABE19F7501666BBE6496A7918F258 /* NBTimerTask.h in Headers */ = {isa = PBXBuildFile; fileRef = D1ABC0F3170D2AB111E5DC81D9898B63 /* NBTimerTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9630C56BB46AB868CF6797735726E6AF /* UITextField+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 41439E6FF0DD26F18680D22B8DD3647E /* UITextField+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A5078EC1B9A6BFFE3B8D5752522E2E9F /* NSMutableAttributedString+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D71F11A904F8B6E4FDCDA04B4279FD /* NSMutableAttributedString+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7AF0DE5032F4E019650648372A33AAE /* UIImage+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A22B4810A2E8984662BC9B2C0F9F719 /* UIImage+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7D3AED9D055453F40999F9F786CBDD /* NSObject+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7C635B4B7967BB3B43C7E73F6A863 /* NSObject+AssociatedObjects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B4258B5922E111F1D0DB2A4DF844D563 /* UIView+FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8FA8B94EFBD9191F287ACEB7D9A05E /* UIView+FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE4DB742690ACAAFB7016D4776BDAE33 /* FFUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BB43BC90844ADD1948F82DA78EF51C8C /* FFUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B8052E068D60996623DB2EA5C36A1E /* NSObject+AssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F223950E3FE4CAC3F39126B293DE3F /* NSObject+AssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1C225F7906CA883E3FF4E4EABD58236 /* UIView+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F3501195F5979DC347E15B57F66D4315 /* UIView+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CAFDE8F5594AA19E83B614A52839F939 /* UIButton+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623C73E1307A8958AA2033ED8BA555E /* UIButton+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F1F4FB174D115ADDE4406CB093FF58D1 /* NSMutableAttributedString+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D76129DC08F1C33531D78DF0F86009B0 /* NSMutableAttributedString+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F98F029AC988BF03C4750E0EF7EC56B3 /* UILabel+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7019F46F6D156D4A5B5383377B5690 /* UILabel+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FCEA1626B02F2C3DAACE714450FC3E2B /* UIColor+FFUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2187962B7F01DC9503EA8FC8A78CF7 /* UIColor+FFUIFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09985B54833EB6DCCA2BEB72BF97FF9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4196C4228D298E1093757D3831BAF9E2;
+			remoteInfo = NBTimerTask;
+		};
+		5F8EBEAE8C97270AF91380337F2C7346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E5C5951066292CE471EE0EF908DECE6;
+			remoteInfo = FFUIFactory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019CEBAA2AEE0CCC05DCFD2810622456 /* UITextField+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+FFUIFactory.h"; path = "FFUIFactory/UITextField+FFUIFactory.h"; sourceTree = "<group>"; };
+		0ED4492DC92417DE38DF1F8B525194CA /* FFUIFactory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFUIFactory.xcconfig; sourceTree = "<group>"; };
+		1A22B4810A2E8984662BC9B2C0F9F719 /* UIImage+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FFUIFactory.h"; path = "FFUIFactory/UIImage+FFUIFactory.h"; sourceTree = "<group>"; };
+		27117E1EB889DE91BFF0D2B0990204A4 /* Pods-NBTimerTaskDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NBTimerTaskDemo-frameworks.sh"; sourceTree = "<group>"; };
+		280E7656FE1BE808F97E160B8613A38B /* UIImage+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FFUIFactory.m"; path = "FFUIFactory/UIImage+FFUIFactory.m"; sourceTree = "<group>"; };
+		2E6E3A8017661EA7BEFB17957C3A19E0 /* NBTimerTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NBTimerTask.m; sourceTree = "<group>"; };
+		2F8FA8B94EFBD9191F287ACEB7D9A05E /* UIView+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FFUIFactory.h"; path = "FFUIFactory/UIView+FFUIFactory.h"; sourceTree = "<group>"; };
+		41439E6FF0DD26F18680D22B8DD3647E /* UITextField+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+FFUIFactory.m"; path = "FFUIFactory/UITextField+FFUIFactory.m"; sourceTree = "<group>"; };
+		4CFFE1C256DC327C50735643E915F55E /* UILabel+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FFUIFactory.h"; path = "FFUIFactory/UILabel+FFUIFactory.h"; sourceTree = "<group>"; };
+		522E190D159A30541F067BA9303CD2CE /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "FFUIFactory/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		6283856425148BE6D95793C8C484DF02 /* UIImageView+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+FFUIFactory.m"; path = "FFUIFactory/UIImageView+FFUIFactory.m"; sourceTree = "<group>"; };
+		6623C73E1307A8958AA2033ED8BA555E /* UIButton+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FFUIFactory.m"; path = "FFUIFactory/UIButton+FFUIFactory.m"; sourceTree = "<group>"; };
+		67E44C468B7CB2E700C12256F2E3DACC /* FFUIFactory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFUIFactory-prefix.pch"; sourceTree = "<group>"; };
+		68F8BDAE0EC37E310E5BE3751CD709E3 /* FFUIFactory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFUIFactory-dummy.m"; sourceTree = "<group>"; };
+		6997840F8D3B628F9DDF6A59D752EAFF /* NSAttributedString+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+FFUIFactory.h"; path = "FFUIFactory/NSAttributedString+FFUIFactory.h"; sourceTree = "<group>"; };
+		6ECDAF8779D404A3EB5FF4B546A2B48B /* UIColor+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FFUIFactory.h"; path = "FFUIFactory/UIColor+FFUIFactory.h"; sourceTree = "<group>"; };
+		6EE9E84A81A816EC4239A97A52D5CB56 /* NBTimerTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NBTimerTask-dummy.m"; sourceTree = "<group>"; };
+		708D3D2D5ADD06EF8AC4F183E7B598F5 /* Pods-NBTimerTaskDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBTimerTaskDemo.release.xcconfig"; sourceTree = "<group>"; };
+		77451BC9D1FE4BC8CA47F47F89022522 /* UIImageView+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+FFUIFactory.h"; path = "FFUIFactory/UIImageView+FFUIFactory.h"; sourceTree = "<group>"; };
+		7B9297E2D7E9AA2122B4460854501BC9 /* NBSystemTimeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NBSystemTimeManager.h; sourceTree = "<group>"; };
+		89335ABA1599A5EAFA6F32D5A0B6E70F /* UIButton+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FFUIFactory.h"; path = "FFUIFactory/UIButton+FFUIFactory.h"; sourceTree = "<group>"; };
+		8E7019F46F6D156D4A5B5383377B5690 /* UILabel+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FFUIFactory.m"; path = "FFUIFactory/UILabel+FFUIFactory.m"; sourceTree = "<group>"; };
+		8EF919911CE448195C7E1DC38D2E2997 /* NBTimerTask-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NBTimerTask-prefix.pch"; sourceTree = "<group>"; };
+		8FEB287C40CDA3F3830462E3A7B9F27A /* libPods-NBTimerTaskDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NBTimerTaskDemo.a"; path = "libPods-NBTimerTaskDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D4581D777165CEC3C08220957582C6 /* NBSystemTimeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NBSystemTimeManager.m; sourceTree = "<group>"; };
+		9E2187962B7F01DC9503EA8FC8A78CF7 /* UIColor+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FFUIFactory.m"; path = "FFUIFactory/UIColor+FFUIFactory.m"; sourceTree = "<group>"; };
+		9F47333C3B22C99E89C3E1469245B059 /* NSAttributedString+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+FFUIFactory.m"; path = "FFUIFactory/NSAttributedString+FFUIFactory.m"; sourceTree = "<group>"; };
+		9FFD530B49FE51E64D1D0574EBD8D232 /* Pods-NBTimerTaskDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBTimerTaskDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8A3C1BC46BC92FBC33F4D5459147D26 /* NBTimerTask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NBTimerTask.xcconfig; sourceTree = "<group>"; };
+		A8F223950E3FE4CAC3F39126B293DE3F /* NSObject+AssociatedObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AssociatedObjects.h"; path = "FFUIFactory/NSObject+AssociatedObjects.h"; sourceTree = "<group>"; };
+		AAE963E49459A7EC949AFE4C2836D0E5 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "FFUIFactory/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		B2591B242EED6F03C679091796629C90 /* libFFUIFactory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFFUIFactory.a; path = libFFUIFactory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D71F11A904F8B6E4FDCDA04B4279FD /* NSMutableAttributedString+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+FFUIFactory.h"; path = "FFUIFactory/NSMutableAttributedString+FFUIFactory.h"; sourceTree = "<group>"; };
+		BB43BC90844ADD1948F82DA78EF51C8C /* FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFUIFactory.h; path = FFUIFactory/FFUIFactory.h; sourceTree = "<group>"; };
+		C4FDD6EC886259B826AE87048DA42060 /* Pods-NBTimerTaskDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NBTimerTaskDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C715DB81002AA0235C56FAAFCF3A9F6F /* libNBTimerTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNBTimerTask.a; path = libNBTimerTask.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF295C19A2D1738497BCCA5607FE6F0E /* NSString+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FFUIFactory.m"; path = "FFUIFactory/NSString+FFUIFactory.m"; sourceTree = "<group>"; };
+		D1ABC0F3170D2AB111E5DC81D9898B63 /* NBTimerTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NBTimerTask.h; sourceTree = "<group>"; };
+		D76129DC08F1C33531D78DF0F86009B0 /* NSMutableAttributedString+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+FFUIFactory.m"; path = "FFUIFactory/NSMutableAttributedString+FFUIFactory.m"; sourceTree = "<group>"; };
+		DCA7C635B4B7967BB3B43C7E73F6A863 /* NSObject+AssociatedObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AssociatedObjects.m"; path = "FFUIFactory/NSObject+AssociatedObjects.m"; sourceTree = "<group>"; };
+		E527F89D247F4FD9B6291DD51B382011 /* Pods-NBTimerTaskDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NBTimerTaskDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF78D2DFA3C51B7D7F404435D4D499F5 /* Pods-NBTimerTaskDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NBTimerTaskDemo-resources.sh"; sourceTree = "<group>"; };
+		F02D4FD589722FD50DAE0CFA475038C7 /* NSString+FFUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FFUIFactory.h"; path = "FFUIFactory/NSString+FFUIFactory.h"; sourceTree = "<group>"; };
+		F3501195F5979DC347E15B57F66D4315 /* UIView+FFUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FFUIFactory.m"; path = "FFUIFactory/UIView+FFUIFactory.m"; sourceTree = "<group>"; };
+		FF542DCC767A4056D500D7132148B1EF /* Pods-NBTimerTaskDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NBTimerTaskDemo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0867A483CF1B3A6B632EE98BC9412919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7E1B7FF786B5ED0BDFD3641E5300D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3620853937F04EAE0AF4254CE48BA277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5492224D337200FB00D0D8BB3818B60A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC57A185B6AB798263F608E2A89F9EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BC72026F9F3D59B0AABB56EB57B10A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E6AB5FDCDEBBE7ECCFC8ECE7F69909 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56FD46142B0EB21B02BADFE24FB6152 /* Pods-NBTimerTaskDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4158F885033D680AFB512827ADC748CF /* NBTimerTask */ = {
+			isa = PBXGroup;
+			children = (
+				EEF33E5FEE2DCBEF49666F7947FB0D77 /* NBTimerTask */,
+				E8907C7BFAD391CF0075227CED5C22A4 /* Support Files */,
+			);
+			name = NBTimerTask;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		51EE88614C8B42A1D57AE2BC27DAB8F6 /* FFUIFactory */ = {
+			isa = PBXGroup;
+			children = (
+				BB43BC90844ADD1948F82DA78EF51C8C /* FFUIFactory.h */,
+				6997840F8D3B628F9DDF6A59D752EAFF /* NSAttributedString+FFUIFactory.h */,
+				9F47333C3B22C99E89C3E1469245B059 /* NSAttributedString+FFUIFactory.m */,
+				B5D71F11A904F8B6E4FDCDA04B4279FD /* NSMutableAttributedString+FFUIFactory.h */,
+				D76129DC08F1C33531D78DF0F86009B0 /* NSMutableAttributedString+FFUIFactory.m */,
+				A8F223950E3FE4CAC3F39126B293DE3F /* NSObject+AssociatedObjects.h */,
+				DCA7C635B4B7967BB3B43C7E73F6A863 /* NSObject+AssociatedObjects.m */,
+				F02D4FD589722FD50DAE0CFA475038C7 /* NSString+FFUIFactory.h */,
+				CF295C19A2D1738497BCCA5607FE6F0E /* NSString+FFUIFactory.m */,
+				89335ABA1599A5EAFA6F32D5A0B6E70F /* UIButton+FFUIFactory.h */,
+				6623C73E1307A8958AA2033ED8BA555E /* UIButton+FFUIFactory.m */,
+				6ECDAF8779D404A3EB5FF4B546A2B48B /* UIColor+FFUIFactory.h */,
+				9E2187962B7F01DC9503EA8FC8A78CF7 /* UIColor+FFUIFactory.m */,
+				1A22B4810A2E8984662BC9B2C0F9F719 /* UIImage+FFUIFactory.h */,
+				280E7656FE1BE808F97E160B8613A38B /* UIImage+FFUIFactory.m */,
+				522E190D159A30541F067BA9303CD2CE /* UIImage+ImageEffects.h */,
+				AAE963E49459A7EC949AFE4C2836D0E5 /* UIImage+ImageEffects.m */,
+				77451BC9D1FE4BC8CA47F47F89022522 /* UIImageView+FFUIFactory.h */,
+				6283856425148BE6D95793C8C484DF02 /* UIImageView+FFUIFactory.m */,
+				4CFFE1C256DC327C50735643E915F55E /* UILabel+FFUIFactory.h */,
+				8E7019F46F6D156D4A5B5383377B5690 /* UILabel+FFUIFactory.m */,
+				019CEBAA2AEE0CCC05DCFD2810622456 /* UITextField+FFUIFactory.h */,
+				41439E6FF0DD26F18680D22B8DD3647E /* UITextField+FFUIFactory.m */,
+				2F8FA8B94EFBD9191F287ACEB7D9A05E /* UIView+FFUIFactory.h */,
+				F3501195F5979DC347E15B57F66D4315 /* UIView+FFUIFactory.m */,
+				9B85D1857403CCC329CC7E7FF748236B /* Support Files */,
+			);
+			name = FFUIFactory;
+			path = FFUIFactory;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D5E426A85E31B36CF7F3C2C29E711CCA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				938EE60423CA4576A0A7A05181894008 /* Pods */,
+				A33F2DA4929B1664BD40437857B65003 /* Products */,
+				20E6AB5FDCDEBBE7ECCFC8ECE7F69909 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		938EE60423CA4576A0A7A05181894008 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51EE88614C8B42A1D57AE2BC27DAB8F6 /* FFUIFactory */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B85D1857403CCC329CC7E7FF748236B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ED4492DC92417DE38DF1F8B525194CA /* FFUIFactory.xcconfig */,
+				68F8BDAE0EC37E310E5BE3751CD709E3 /* FFUIFactory-dummy.m */,
+				67E44C468B7CB2E700C12256F2E3DACC /* FFUIFactory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FFUIFactory";
+			sourceTree = "<group>";
+		};
+		A33F2DA4929B1664BD40437857B65003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2591B242EED6F03C679091796629C90 /* libFFUIFactory.a */,
+				C715DB81002AA0235C56FAAFCF3A9F6F /* libNBTimerTask.a */,
+				8FEB287C40CDA3F3830462E3A7B9F27A /* libPods-NBTimerTaskDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C56FD46142B0EB21B02BADFE24FB6152 /* Pods-NBTimerTaskDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C4FDD6EC886259B826AE87048DA42060 /* Pods-NBTimerTaskDemo-acknowledgements.markdown */,
+				9FFD530B49FE51E64D1D0574EBD8D232 /* Pods-NBTimerTaskDemo-acknowledgements.plist */,
+				FF542DCC767A4056D500D7132148B1EF /* Pods-NBTimerTaskDemo-dummy.m */,
+				27117E1EB889DE91BFF0D2B0990204A4 /* Pods-NBTimerTaskDemo-frameworks.sh */,
+				EF78D2DFA3C51B7D7F404435D4D499F5 /* Pods-NBTimerTaskDemo-resources.sh */,
+				E527F89D247F4FD9B6291DD51B382011 /* Pods-NBTimerTaskDemo.debug.xcconfig */,
+				708D3D2D5ADD06EF8AC4F183E7B598F5 /* Pods-NBTimerTaskDemo.release.xcconfig */,
+			);
+			name = "Pods-NBTimerTaskDemo";
+			path = "Target Support Files/Pods-NBTimerTaskDemo";
+			sourceTree = "<group>";
+		};
+		D5E426A85E31B36CF7F3C2C29E711CCA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4158F885033D680AFB512827ADC748CF /* NBTimerTask */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E8907C7BFAD391CF0075227CED5C22A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8A3C1BC46BC92FBC33F4D5459147D26 /* NBTimerTask.xcconfig */,
+				6EE9E84A81A816EC4239A97A52D5CB56 /* NBTimerTask-dummy.m */,
+				8EF919911CE448195C7E1DC38D2E2997 /* NBTimerTask-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "NBTimerTaskDemo/Pods/Target Support Files/NBTimerTask";
+			sourceTree = "<group>";
+		};
+		EEF33E5FEE2DCBEF49666F7947FB0D77 /* NBTimerTask */ = {
+			isa = PBXGroup;
+			children = (
+				7B9297E2D7E9AA2122B4460854501BC9 /* NBSystemTimeManager.h */,
+				97D4581D777165CEC3C08220957582C6 /* NBSystemTimeManager.m */,
+				D1ABC0F3170D2AB111E5DC81D9898B63 /* NBTimerTask.h */,
+				2E6E3A8017661EA7BEFB17957C3A19E0 /* NBTimerTask.m */,
+			);
+			name = NBTimerTask;
+			path = NBTimerTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3934545E38F791CD2D6052F32915F67D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4DB742690ACAAFB7016D4776BDAE33 /* FFUIFactory.h in Headers */,
+				55B790023E649F17DA4CEBFCFC83CDA7 /* NSAttributedString+FFUIFactory.h in Headers */,
+				A5078EC1B9A6BFFE3B8D5752522E2E9F /* NSMutableAttributedString+FFUIFactory.h in Headers */,
+				C1B8052E068D60996623DB2EA5C36A1E /* NSObject+AssociatedObjects.h in Headers */,
+				3E40E1BC8259201B841EF38ED95EDA0D /* NSString+FFUIFactory.h in Headers */,
+				8D1A1169FA1AF743F41A90AE42263BD1 /* UIButton+FFUIFactory.h in Headers */,
+				4D12AF04198E7365E6E828C7C0BD6343 /* UIColor+FFUIFactory.h in Headers */,
+				A7AF0DE5032F4E019650648372A33AAE /* UIImage+FFUIFactory.h in Headers */,
+				721EE81A6BE3A1D0FDD7C7C38EB68624 /* UIImage+ImageEffects.h in Headers */,
+				55EED05EA25A51158E0863DE782A59FF /* UIImageView+FFUIFactory.h in Headers */,
+				3CAC137F2A405CCC55E7E84698276F7E /* UILabel+FFUIFactory.h in Headers */,
+				379029BCFA0851B9119A6E551CD022BC /* UITextField+FFUIFactory.h in Headers */,
+				B4258B5922E111F1D0DB2A4DF844D563 /* UIView+FFUIFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AFC09FF1DCEBA4E757F16A9C643948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B1298DA60D89358B0B0E9A72687E0D /* NBSystemTimeManager.h in Headers */,
+				94AABE19F7501666BBE6496A7918F258 /* NBTimerTask.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21D4089E0F6AB931DEA39894F873F946 /* Pods-NBTimerTaskDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2518E8C811DA13B59890A3F4D756E8 /* Build configuration list for PBXNativeTarget "Pods-NBTimerTaskDemo" */;
+			buildPhases = (
+				BED3BCA1DCE1981CE1319CFCF60A8D94 /* Sources */,
+				0867A483CF1B3A6B632EE98BC9412919 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97414BDA4C3BAF4712939DEBAA4C9A55 /* PBXTargetDependency */,
+				86B6F2E053CA1AC5CFFE04B139397E45 /* PBXTargetDependency */,
+			);
+			name = "Pods-NBTimerTaskDemo";
+			productName = "Pods-NBTimerTaskDemo";
+			productReference = 8FEB287C40CDA3F3830462E3A7B9F27A /* libPods-NBTimerTaskDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4196C4228D298E1093757D3831BAF9E2 /* NBTimerTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C06036CA04490BBE09D6D7F5076D07C /* Build configuration list for PBXNativeTarget "NBTimerTask" */;
+			buildPhases = (
+				6127B31964E0F36B9CB13AF6E799A08A /* Sources */,
+				8CC57A185B6AB798263F608E2A89F9EF /* Frameworks */,
+				A8AFC09FF1DCEBA4E757F16A9C643948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBTimerTask;
+			productName = NBTimerTask;
+			productReference = C715DB81002AA0235C56FAAFCF3A9F6F /* libNBTimerTask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E5C5951066292CE471EE0EF908DECE6 /* FFUIFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75438755FC19C29BA46BA3B25E7CD871 /* Build configuration list for PBXNativeTarget "FFUIFactory" */;
+			buildPhases = (
+				D00E200585BCD8B49B1E147F55AFBD13 /* Sources */,
+				3620853937F04EAE0AF4254CE48BA277 /* Frameworks */,
+				3934545E38F791CD2D6052F32915F67D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFUIFactory;
+			productName = FFUIFactory;
+			productReference = B2591B242EED6F03C679091796629C90 /* libFFUIFactory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A33F2DA4929B1664BD40437857B65003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E5C5951066292CE471EE0EF908DECE6 /* FFUIFactory */,
+				4196C4228D298E1093757D3831BAF9E2 /* NBTimerTask */,
+				21D4089E0F6AB931DEA39894F873F946 /* Pods-NBTimerTaskDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6127B31964E0F36B9CB13AF6E799A08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2440652B9445AA9DF0692DF49032F /* NBSystemTimeManager.m in Sources */,
+				03C1438ED1A8D2A9B54855D4DD4F037C /* NBTimerTask-dummy.m in Sources */,
+				551D9AF7A930FD5F67B4CD9CB92EC612 /* NBTimerTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED3BCA1DCE1981CE1319CFCF60A8D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878763312C2258E1476F55E8BD320811 /* Pods-NBTimerTaskDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E200585BCD8B49B1E147F55AFBD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597CD932DCF9CAAF63487CDEF6201B0D /* FFUIFactory-dummy.m in Sources */,
+				6367D46E4CEC70715EB4003EFB194C66 /* NSAttributedString+FFUIFactory.m in Sources */,
+				F1F4FB174D115ADDE4406CB093FF58D1 /* NSMutableAttributedString+FFUIFactory.m in Sources */,
+				AC7D3AED9D055453F40999F9F786CBDD /* NSObject+AssociatedObjects.m in Sources */,
+				066B22C579C01B10A58875169C8D5F0B /* NSString+FFUIFactory.m in Sources */,
+				CAFDE8F5594AA19E83B614A52839F939 /* UIButton+FFUIFactory.m in Sources */,
+				FCEA1626B02F2C3DAACE714450FC3E2B /* UIColor+FFUIFactory.m in Sources */,
+				5CB3EE2ED65F4E3089590C4C83CD5F54 /* UIImage+FFUIFactory.m in Sources */,
+				50504B3AB10976BCED85CFC594301D7F /* UIImage+ImageEffects.m in Sources */,
+				8682A95D89624023796EB102F20CE6D2 /* UIImageView+FFUIFactory.m in Sources */,
+				F98F029AC988BF03C4750E0EF7EC56B3 /* UILabel+FFUIFactory.m in Sources */,
+				9630C56BB46AB868CF6797735726E6AF /* UITextField+FFUIFactory.m in Sources */,
+				C1C225F7906CA883E3FF4E4EABD58236 /* UIView+FFUIFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86B6F2E053CA1AC5CFFE04B139397E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NBTimerTask;
+			target = 4196C4228D298E1093757D3831BAF9E2 /* NBTimerTask */;
+			targetProxy = 09985B54833EB6DCCA2BEB72BF97FF9D /* PBXContainerItemProxy */;
+		};
+		97414BDA4C3BAF4712939DEBAA4C9A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFUIFactory;
+			target = 9E5C5951066292CE471EE0EF908DECE6 /* FFUIFactory */;
+			targetProxy = 5F8EBEAE8C97270AF91380337F2C7346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09006CA2AEB29373A52A57746AD5715E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED4492DC92417DE38DF1F8B525194CA /* FFUIFactory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FFUIFactory/FFUIFactory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2189CC7757B96D8E78AB585E079AA38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED4492DC92417DE38DF1F8B525194CA /* FFUIFactory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FFUIFactory/FFUIFactory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		31BCA9164EF32986C7FB48913FDC121F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A3C1BC46BC92FBC33F4D5459147D26 /* NBTimerTask.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NBTimerTask/NBTimerTask-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3CA59941D6C5E3B78385FCE6C95D276F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E527F89D247F4FD9B6291DD51B382011 /* Pods-NBTimerTaskDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72E32EB7ECBF016CFB298C98FA45A20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708D3D2D5ADD06EF8AC4F183E7B598F5 /* Pods-NBTimerTaskDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F22340B919A6AF767502FA00247FEBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A3C1BC46BC92FBC33F4D5459147D26 /* NBTimerTask.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NBTimerTask/NBTimerTask-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C06036CA04490BBE09D6D7F5076D07C /* Build configuration list for PBXNativeTarget "NBTimerTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22340B919A6AF767502FA00247FEBA1 /* Debug */,
+				31BCA9164EF32986C7FB48913FDC121F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75438755FC19C29BA46BA3B25E7CD871 /* Build configuration list for PBXNativeTarget "FFUIFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2189CC7757B96D8E78AB585E079AA38F /* Debug */,
+				09006CA2AEB29373A52A57746AD5715E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2518E8C811DA13B59890A3F4D756E8 /* Build configuration list for PBXNativeTarget "Pods-NBTimerTaskDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA59941D6C5E3B78385FCE6C95D276F /* Debug */,
+				72E32EB7ECBF016CFB298C98FA45A20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

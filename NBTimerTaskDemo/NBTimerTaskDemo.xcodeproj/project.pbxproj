@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		998B1F811F0F21E1006DE390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 998B1F801F0F21E1006DE390 /* main.m */; };
+		998B1F841F0F21E1006DE390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 998B1F831F0F21E1006DE390 /* AppDelegate.m */; };
+		998B1F871F0F21E1006DE390 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 998B1F861F0F21E1006DE390 /* ViewController.m */; };
+		998B1F8A1F0F21E1006DE390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998B1F881F0F21E1006DE390 /* Main.storyboard */; };
+		998B1F8C1F0F21E1006DE390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998B1F8B1F0F21E1006DE390 /* Assets.xcassets */; };
+		998B1F8F1F0F21E1006DE390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998B1F8D1F0F21E1006DE390 /* LaunchScreen.storyboard */; };
+		998B1F9E1F0F28A4006DE390 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 998B1F9D1F0F28A4006DE390 /* SecondViewController.m */; };
+		D0ED6BC698E87546F729C417 /* libPods-NBTimerTaskDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 861826C063FB0AB4016C6BB5 /* libPods-NBTimerTaskDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13C83EA65C1CB2652A443277 /* Pods-NBTimerTaskDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBTimerTaskDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBTimerTaskDemo/Pods-NBTimerTaskDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		41C5FE0EF47E60B3795B6F06 /* Pods-NBTimerTaskDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBTimerTaskDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBTimerTaskDemo/Pods-NBTimerTaskDemo.release.xcconfig"; sourceTree = "<group>"; };
+		861826C063FB0AB4016C6BB5 /* libPods-NBTimerTaskDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBTimerTaskDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998B1F7C1F0F21E1006DE390 /* NBTimerTaskDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBTimerTaskDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		998B1F801F0F21E1006DE390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		998B1F821F0F21E1006DE390 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		998B1F831F0F21E1006DE390 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		998B1F851F0F21E1006DE390 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		998B1F861F0F21E1006DE390 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		998B1F891F0F21E1006DE390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		998B1F8B1F0F21E1006DE390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		998B1F8E1F0F21E1006DE390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		998B1F901F0F21E1006DE390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998B1F9C1F0F28A4006DE390 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		998B1F9D1F0F28A4006DE390 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		998B1F791F0F21E1006DE390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ED6BC698E87546F729C417 /* libPods-NBTimerTaskDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3F1CE3E89F0AD45A7745DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13C83EA65C1CB2652A443277 /* Pods-NBTimerTaskDemo.debug.xcconfig */,
+				41C5FE0EF47E60B3795B6F06 /* Pods-NBTimerTaskDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9903F765890E15FCBDE4A525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861826C063FB0AB4016C6BB5 /* libPods-NBTimerTaskDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		998B1F731F0F21E1006DE390 = {
+			isa = PBXGroup;
+			children = (
+				998B1F7E1F0F21E1006DE390 /* NBTimerTaskDemo */,
+				998B1F7D1F0F21E1006DE390 /* Products */,
+				2F3F1CE3E89F0AD45A7745DD /* Pods */,
+				9903F765890E15FCBDE4A525 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		998B1F7D1F0F21E1006DE390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998B1F7C1F0F21E1006DE390 /* NBTimerTaskDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		998B1F7E1F0F21E1006DE390 /* NBTimerTaskDemo */ = {
+			isa = PBXGroup;
+			children = (
+				998B1F821F0F21E1006DE390 /* AppDelegate.h */,
+				998B1F831F0F21E1006DE390 /* AppDelegate.m */,
+				998B1F851F0F21E1006DE390 /* ViewController.h */,
+				998B1F861F0F21E1006DE390 /* ViewController.m */,
+				998B1F881F0F21E1006DE390 /* Main.storyboard */,
+				998B1F8B1F0F21E1006DE390 /* Assets.xcassets */,
+				998B1F8D1F0F21E1006DE390 /* LaunchScreen.storyboard */,
+				998B1F901F0F21E1006DE390 /* Info.plist */,
+				998B1F7F1F0F21E1006DE390 /* Supporting Files */,
+				998B1F9C1F0F28A4006DE390 /* SecondViewController.h */,
+				998B1F9D1F0F28A4006DE390 /* SecondViewController.m */,
+			);
+			path = NBTimerTaskDemo;
+			sourceTree = "<group>";
+		};
+		998B1F7F1F0F21E1006DE390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				998B1F801F0F21E1006DE390 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		998B1F7B1F0F21E1006DE390 /* NBTimerTaskDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998B1F931F0F21E1006DE390 /* Build configuration list for PBXNativeTarget "NBTimerTaskDemo" */;
+			buildPhases = (
+				C6EAB062D7D402359C863A23 /* [CP] Check Pods Manifest.lock */,
+				998B1F781F0F21E1006DE390 /* Sources */,
+				998B1F791F0F21E1006DE390 /* Frameworks */,
+				998B1F7A1F0F21E1006DE390 /* Resources */,
+				D40ADD64E3D962ADFC978E7A /* [CP] Embed Pods Frameworks */,
+				092475E8E8BCF915A8893699 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBTimerTaskDemo;
+			productName = NBTimerTaskDemo;
+			productReference = 998B1F7C1F0F21E1006DE390 /* NBTimerTaskDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		998B1F741F0F21E1006DE390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NB;
+				TargetAttributes = {
+					998B1F7B1F0F21E1006DE390 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 998B1F771F0F21E1006DE390 /* Build configuration list for PBXProject "NBTimerTaskDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 998B1F731F0F21E1006DE390;
+			productRefGroup = 998B1F7D1F0F21E1006DE390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				998B1F7B1F0F21E1006DE390 /* NBTimerTaskDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		998B1F7A1F0F21E1006DE390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998B1F8F1F0F21E1006DE390 /* LaunchScreen.storyboard in Resources */,
+				998B1F8C1F0F21E1006DE390 /* Assets.xcassets in Resources */,
+				998B1F8A1F0F21E1006DE390 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		092475E8E8BCF915A8893699 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NBTimerTaskDemo/Pods-NBTimerTaskDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6EAB062D7D402359C863A23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D40ADD64E3D962ADFC978E7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NBTimerTaskDemo/Pods-NBTimerTaskDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		998B1F781F0F21E1006DE390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998B1F9E1F0F28A4006DE390 /* SecondViewController.m in Sources */,
+				998B1F871F0F21E1006DE390 /* ViewController.m in Sources */,
+				998B1F841F0F21E1006DE390 /* AppDelegate.m in Sources */,
+				998B1F811F0F21E1006DE390 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		998B1F881F0F21E1006DE390 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998B1F891F0F21E1006DE390 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		998B1F8D1F0F21E1006DE390 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998B1F8E1F0F21E1006DE390 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		998B1F911F0F21E1006DE390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		998B1F921F0F21E1006DE390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		998B1F941F0F21E1006DE390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C83EA65C1CB2652A443277 /* Pods-NBTimerTaskDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NBTimerTaskDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nb.NBTimerTaskDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		998B1F951F0F21E1006DE390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C5FE0EF47E60B3795B6F06 /* Pods-NBTimerTaskDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NBTimerTaskDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nb.NBTimerTaskDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		998B1F771F0F21E1006DE390 /* Build configuration list for PBXProject "NBTimerTaskDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998B1F911F0F21E1006DE390 /* Debug */,
+				998B1F921F0F21E1006DE390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998B1F931F0F21E1006DE390 /* Build configuration list for PBXNativeTarget "NBTimerTaskDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998B1F941F0F21E1006DE390 /* Debug */,
+				998B1F951F0F21E1006DE390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 998B1F741F0F21E1006DE390 /* Project object */;
+}

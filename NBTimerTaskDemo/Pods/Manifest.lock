@@ -1,0 +1,19 @@
+PODS:
+  - FFUIFactory (1.0.0)
+  - NBTimerTask (1.0.0)
+
+DEPENDENCIES:
+  - FFUIFactory
+  - NBTimerTask (from `../`)
+
+EXTERNAL SOURCES:
+  NBTimerTask:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFUIFactory: c344a9fb28a840c8e72c9ed5d3dcc5687e1aad70
+  NBTimerTask: 4b7e2a36fb75f359214ffc53c3338171684b8a45
+
+PODFILE CHECKSUM: 45cd9c3dc9eea410e2ec14c73946192d4fa0b714
+
+COCOAPODS: 1.1.1
